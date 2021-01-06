@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fbfbfb
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.page-header {
+    background-color: #222f3e;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    padding-left: 70px;
+}
+
+.page-header span {
+    margin-left: 5px;
+    color: #1dd1a1;
+}
+
+.nav-menu {
+    padding: 10px 0 10px 120px;
+}
+
+.nav-menu a {
+    color: #ccc;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    color: #222f3e;
+    font-weight: 700;
+}
+
+.nav-menu li {
+    padding: 20px;
+}
+
+.header-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.header-img h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.header-img p {
+    margin: 20px 170px;
+    text-align: center;
+}
+
+.journey-ways {
+    width: 90%;
+    margin: auto;
+    /* padding: 70%; */
+}
+
+.journey-ways h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+#journey-explain {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #222f3e;
+}
+
+footer {
+    background-color: #222f3e;
+    color: #fff;
+    padding: 20px 70px;
+}
+
+.journey-ways span {
+    color: #1dd1a1;
+}
+
+.icons {
+    width: 30%;
+}
+
+.travel-ways {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.icons:nth-child(2) {
+    margin-top: 30px;
+}
+
+.icons h3 {
+    margin-top: 15px;
+}
+
+.icons p {
+    margin-top: 10px;
+}
+
+.gallery {
+    background-color: #1dd1a1;
+    padding-top: 40px;
+    margin-top: 40px;
+    color: #222f3e;
+}
+
+.gallery-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-images {
+    width: 29%;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+.gallery-images img {
+    width: 100%;
+}
+
+.gallery-images h3 {
+    padding: 15px;
+}
+
+.gallery-images p {
+    padding: 0 15px 15px 15px;
+}
